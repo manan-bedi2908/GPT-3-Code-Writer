@@ -10,7 +10,10 @@ body {
     display: flex;
     place-content: center flex-start;
     align-items: center;
-    background-color: rgb(0, 0, 0);
+    background-color: #8EC5FC;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20201104/pngtree-technology-background-binary-computer-code-vector-illustration-image_458703.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     flex-flow: column nowrap;
     gap: 10px;
     height: 100vh;
@@ -40,7 +43,7 @@ body {
     flex-direction: column;
     width: 100%;
     align-items: center;
-    color: #FFF
+    color: white;
 }
 
 .header-title {
@@ -63,7 +66,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 1.4em;
-    color: rgba(255, 255, 255, 0.75);
+    color: white;
 }
 
 .prompt-container {
@@ -79,12 +82,12 @@ body {
 }
 
 .prompt-box {
-    border-bottom-width: 1px;
-    border-color: rgba(255, 255, 255, 0.1);
-    border-left-width: 1px;
-    border-right-width: 1px;
+    border-bottom-width: 2px;
+    border-color: black;
+    border-left-width: 2px;
+    border-right-width: 2px;
     border-style: solid;
-    border-top-width: 1px;
+    border-top-width: 2px;
     place-content: flex-start;
     align-items: flex-start;
     background-color: rgba(255, 255, 255, 0.05);
@@ -111,6 +114,7 @@ body {
     color: rgba(255, 255, 255, 0.75);
     text-decoration: none;
     text-transform: none;
+    box-shadow: 5px 10px green;
 }
 
 textarea {
@@ -172,7 +176,7 @@ textarea {
 .generate-button {
     place-content: flex-start;
     align-items: flex-start;
-    background-color: rgb(255, 79, 18);
+    background-color: rgb(0, 0, 255);
     border-radius: 100px;
     display: flex;
     flex: 0 0 auto;
@@ -312,10 +316,10 @@ textarea {
 
 .output-content {
     outline: none;
-    display: flex;
+    /* display: flex;
     /* max-width: 25%; */
-    flex-direction: column;
-    justify-content: flex-start;
+    /* flex-direction: column; */
+    justify-content: left;
     flex-shrink: 0;
     transform: none;
 }
